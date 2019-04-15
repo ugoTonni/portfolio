@@ -1,0 +1,133 @@
+body{
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    
+    
+}
+h1 {
+    margin: 0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66bfbf;
+}
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.0rem;
+    color: #66bfbf;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif; 
+    color: #11999E;
+}
+hr {
+    width: 10%;
+    border-style: dotted none none none;
+    border-width: 5px;
+    border-color: #EAF6F6;
+    margin: 100px auto;
+    
+}
+p {
+    line-height: 2;
+}
+/**********************************************class selectors*******************************************/
+.topContainer{
+    background-color: #EAF6F6;
+}  
+.bottomCloud {
+    position: absolute;
+    left: 280px;
+
+}
+.topCloud {
+    margin: 10px;
+    position: relative;
+    left: 250px;
+    top: 10px;
+}
+.profile img {
+    border: 1px solid aquamarine;
+    border-radius: 100%;
+    width: 15%;
+    margin: 50px auto 10px auto;
+}
+.skills {
+    margin-bottom: 50px;
+}
+.skill-row {
+    width: 50%;
+    text-align: left;
+    margin: 100px auto; 
+}
+.designImg {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    
+}
+.gameImg {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+     
+    
+}
+.cssP {
+    position: relative;
+    right:250px;
+}
+a {
+    color: #11999E;
+    margin: 0 20px;
+}
+a:hover {
+    color: #EAF6F6;
+}
+.titleH {
+    font-weight: normal;
+    margin-top: 53.12px;
+}
+#btn {
+    background-color: #11999E;
+    width: 120px;
+    padding: 5px;
+    border-style: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-family:'Montserrat', sans-serif;
+}
+#btn:hover {
+    color: #EAF6F6;
+}
+.bottomContainer {
+    background-color: #66bfbf;
+    height: 100px;
+}
+.bottomContainer p {
+    margin: 0px;
+    text-align: center;
+    padding-top: 50px;
+    color: #EAF6F6;
+}
+.bottomContainer a {
+    text-decoration: none;
+    padding-top:50px; 
+}
+.footer-link {
+    position: relative;
+    top: 30px;
+    color:11999E;
+}
+.contact-me p {
+    width: 30%;
+    margin: 30px auto;
+}
+.intro {
+    width: 30%;
+    margin: 0 auto;
+}
+.copyright {
+    font-size: 0.6rem
+}
